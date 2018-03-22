@@ -32,9 +32,6 @@ def generaAcasoCentroidi2(k,X):
   
  
 im=cv2.imread('aa.jpg')
-
-cv2.imshow('lena-r2.jpg',im)
-
 sh=im.shape
 righe,colonne=sh[0],sh[1]
 l=3
